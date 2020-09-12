@@ -23,6 +23,9 @@
 		05B51BA724F3118B00B88945 /* LabelExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B51BA624F3118B00B88945 /* LabelExample.swift */; };
 		05B51BA924F3143900B88945 /* VideoPlayerExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B51BA824F3143900B88945 /* VideoPlayerExample.swift */; };
 		05B51BB024F3167200B88945 /* FormatingDateExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B51BAF24F3167200B88945 /* FormatingDateExample.swift */; };
+		05B51D27250C53AB00B88945 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B51D26250C53AB00B88945 /* StatusBar.swift */; };
+		05B51D2A250C547900B88945 /* DisclosureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B51D29250C547900B88945 /* DisclosureView.swift */; };
+		05B51D2D250C54FE00B88945 /* ToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05B51D2C250C54FE00B88945 /* ToolBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +69,9 @@
 		05B51BA824F3143900B88945 /* VideoPlayerExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerExample.swift; sourceTree = "<group>"; };
 		05B51BAA24F314A000B88945 /* UICollectionView List Layout Swift 5.3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "UICollectionView List Layout Swift 5.3.mp4"; sourceTree = "<group>"; };
 		05B51BAF24F3167200B88945 /* FormatingDateExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatingDateExample.swift; sourceTree = "<group>"; };
+		05B51D26250C53AB00B88945 /* StatusBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusBar.swift; sourceTree = "<group>"; };
+		05B51D29250C547900B88945 /* DisclosureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclosureView.swift; sourceTree = "<group>"; };
+		05B51D2C250C54FE00B88945 /* ToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +122,9 @@
 		0542669A24F1B0BC00B8B168 /* Basic templates */ = {
 			isa = PBXGroup;
 			children = (
+				05B51D2B250C54ED00B88945 /* ToolBar */,
+				05B51D28250C546200B88945 /* DisclosureGroup */,
+				05B51D25250C539700B88945 /* Status Bar */,
 				05B51BAE24F3163400B88945 /* Data formater */,
 				05B51BAB24F314E900B88945 /* VideoPlayer */,
 				054266D824F1DC8100B8B168 /* Labels */,
@@ -208,6 +217,30 @@
 				05B51BAF24F3167200B88945 /* FormatingDateExample.swift */,
 			);
 			path = "Data formater";
+			sourceTree = "<group>";
+		};
+		05B51D25250C539700B88945 /* Status Bar */ = {
+			isa = PBXGroup;
+			children = (
+				05B51D26250C53AB00B88945 /* StatusBar.swift */,
+			);
+			path = "Status Bar";
+			sourceTree = "<group>";
+		};
+		05B51D28250C546200B88945 /* DisclosureGroup */ = {
+			isa = PBXGroup;
+			children = (
+				05B51D29250C547900B88945 /* DisclosureView.swift */,
+			);
+			path = DisclosureGroup;
+			sourceTree = "<group>";
+		};
+		05B51D2B250C54ED00B88945 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				05B51D2C250C54FE00B88945 /* ToolBar.swift */,
+			);
+			path = ToolBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,6 +377,7 @@
 				054266D524F1D92B00B8B168 /* Gradiant.swift in Sources */,
 				054266CD24F1B45900B8B168 /* TextStyle.swift in Sources */,
 				054266D124F1B98A00B8B168 /* Images.swift in Sources */,
+				05B51D27250C53AB00B88945 /* StatusBar.swift in Sources */,
 				054266D724F1DC1800B8B168 /* Shapes.swift in Sources */,
 				0542669C24F1B0BC00B8B168 /* AppDelegate.swift in Sources */,
 				05B51BA724F3118B00B88945 /* LabelExample.swift in Sources */,
@@ -351,7 +385,9 @@
 				0542669E24F1B0BC00B8B168 /* SceneDelegate.swift in Sources */,
 				054266CF24F1B58800B8B168 /* DateFormatterExample.swift in Sources */,
 				054266A024F1B0BC00B8B168 /* ContentView.swift in Sources */,
+				05B51D2D250C54FE00B88945 /* ToolBar.swift in Sources */,
 				05B51BB024F3167200B88945 /* FormatingDateExample.swift in Sources */,
+				05B51D2A250C547900B88945 /* DisclosureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
